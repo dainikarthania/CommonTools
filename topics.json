@@ -1,0 +1,45 @@
+{
+    "Adult":{},
+   "Autos & Vehicles":{
+     "microcar":{},
+     "budget cars":{},
+     "certified pre-owned cars":{},
+     "green vehicles":{},
+     "auto recalls":{},
+     "auto technology":{},
+     "sedan":{},
+     "station wagon":{},
+     "Bicycles & Accessories":{
+         "Bike Parts & Repair":{},
+         "BMX Bikes":{}     
+     },
+    "Boats & Watercraft":{},
+    "Campers & RVs":{
+        "van":{},
+        "minivan":{}
+    },
+    "Classic Vehicles":{},
+    "Commercial Vehicles":{
+        "Cargo Trucks & Trailers":{}
+    },
+    "Motor Vehicles (By Type)":{
+        "Hybrid & Alternative Vehicles":{},
+        "Motorcycles":{},
+        "Off-Road Vehicles":{},
+        "Trucks & SUVs":{}
+    },
+    "Vehicle Codes & Driving Laws":{
+        "Vehicle Licensing & Registration":{}
+    },
+    "Vehicle Parts & Services":{
+        "Gas Prices & Vehicle Fueling":{},
+        "Vehicle Parts & Accessories":{},
+        "Vehicle Repair & Maintenance":{},
+        "auto body styles":{}
+    },
+    "Vehicle Shopping":{
+        "Used Vehicles":{}
+    },
+    "Vehicle Shows":{}
+   }
+  }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+ <meta charset="utf-8" />
+<script>
+var childwin;
+const childname = "popup";
+
+
+function openChild() {
+childwin = window.open('http://localhost:5002/received', null, 'height=300px, width=500px');
+  
+}
+function sendMessage(){
+    let msg={pName : "Dainik", pAge: "45678"};
+    // In production, DO NOT use '*', use toe target domain
+    childwin.postMessage(msg,'http://localhost:5002')// childwin is the targetWindow
+    childwin.focus();
+}
+</script>
+</head>
+<body>
+
+<img src="https://surusefiles-v1.s3.us-west-2.amazonaws.com/images/OhRlqC.jpeg?AWSAccessKeyId=AKIAI5Y4V7CIOAZR5ZDA&Expires=1608722866&Signature=%2BWlYTXD%2BNhaneSYEp1EV2qOj8jc%3D">
+</img>
+    <form>
+        <fieldset>
+            <input type='button' id='btnopen' value='Open child' onclick='openChild();' />
+            <input type='button' id='btnSendMsg' value='Send Message' onclick='sendMessage();' />
+        </fieldset>
+    </form>
+</body>
+</html>
